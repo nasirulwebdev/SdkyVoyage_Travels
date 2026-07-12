@@ -27,7 +27,7 @@ import TourPackages from "../pages/TourPackages/TourPackages";
 // FLIGHT PAGES
 // ===========================
 import FlightsPage from "../pages/Flights/FlightsPage";
-import DomesticFlightPage from "../pages/Flights/DomesticFlightPage";
+import DomesticFlightPage from "../pages/Flights/DomesticFlights/DomesticFlightPage";
 import InternationalFlightPage from "../pages/Flights/InternationalFlightPage";
 import FlightBookingPage from "../pages/Flights/FlightBookingPage";
 // ===========================

@@ -56,6 +56,7 @@ const Navbar = () => {
     },
       {
       title: "Tour Packages",
+      path: "/tour-packages",
       items: [
         {
           name: "Family Tour",
