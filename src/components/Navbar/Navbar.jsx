@@ -132,14 +132,32 @@ const Navbar = () => {
           }
       ]
   },
-    {
+
+  {
       title: "Visa",
+      path: "/visa",
       items: [
-        { name: "Tourist Visa", desc: "Travel visa assistance", icon: <Globe size={18}/>, path: "/visa/tourist" },
-        { name: "Student Visa", desc: "Study abroad support", icon: <Globe size={18}/>, path: "/visa/student" },
-        { name: "Work Visa", desc: "Career abroad solutions", icon: <Globe size={18}/>, path: "/visa/work" }
-      ]
-    },
+          {
+              name: "Tourist Visa",
+              desc: "Explore the world with tourist visa assistance",
+              icon: <Globe size={18} />,
+              path: "/visa/tourist",
+          },
+          {
+              name: "Student Visa",
+              desc: "Study abroad with professional visa support",
+              icon: <Compass size={18} />,
+              path: "/visa/student",
+          },
+          {
+              name: "Work Visa",
+              desc: "Professional assistance for overseas work visas",
+              icon: <MapPin size={18} />,
+              path: "/visa/work",
+          },
+      ],
+  },
+
     {
       title: "Hajj & Umrah",
       items: [
@@ -184,23 +202,23 @@ const Navbar = () => {
               
               {/* MENU TITLE */}
               <div className="flex items-center gap-1 font-medium text-gray-700 hover:text-blue-700 transition text-sm xl:text-base">
-                {menu.path ? (
-                  <NavLink
-                    to={menu.path}
-                    className="hover:text-blue-700 transition"
-                  >
-                    {menu.title}
-                  </NavLink>
-                ) : (
-                  <span className="cursor-pointer">
-                    {menu.title}
-                  </span>
-                )}
+                  {menu.path ? (
+                      <NavLink
+                          to={menu.path}
+                          className="hover:text-blue-700 transition"
+                      >
+                          {menu.title}
+                      </NavLink>
+                  ) : (
+                      <span className="cursor-pointer">
+                          {menu.title}
+                      </span>
+                  )}
 
-                <ChevronDown
-                  size={14}
-                  className="text-gray-400 group-hover:text-blue-700 transition-colors"
-                />
+                  <ChevronDown
+                      size={14}
+                      className="text-gray-400 group-hover:text-blue-700 transition-colors"
+                  />
               </div>
 
               {/* DROPDOWN BOX */}

@@ -30,6 +30,12 @@ import FlightsPage from "../pages/Flights/FlightsPage";
 import DomesticFlightPage from "../pages/Flights/DomesticFlights/DomesticFlightPage";
 import InternationalFlightPage from "../pages/Flights/InternationalFlightPage";
 import FlightBookingPage from "../pages/Flights/FlightBookingPage";
+
+// ===========================
+// VISA PAGES
+// ===========================
+
+import VisaPage from "../pages/Visa/VisaPage";
 // ===========================
 // HOTEL PAGES
 // ===========================
@@ -133,6 +139,14 @@ const router = createBrowserRouter([
             {
                 path: "flights/booking",
                 element: <FlightBookingPage />,
+            },
+
+            // ==========================================
+            // VISA 
+            // ==========================================
+            {
+                path: "visa",
+                element: <VisaPage />,
             },
             // ==========================================
             // HOTELS
