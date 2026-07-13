@@ -110,12 +110,28 @@ const Navbar = () => {
     },
     {
       title: "Hotels",
+      path: "/hotels",
       items: [
-        { name: "Hotels", desc: "Comfortable hotel booking", icon: <Hotel size={18}/>, path: "/hotels" },
-        { name: "Resort", desc: "Luxury resort stay", icon: <Hotel size={18}/>, path: "/resorts" },
-        { name: "Apartment", desc: "Private apartment rental", icon: <Hotel size={18}/>, path: "/apartments" }
+          {
+              name: "Hotels",
+              desc: "Comfortable hotel booking",
+              icon: <Hotel size={18} />,
+              path: "/hotels"
+          },
+          {
+              name: "Resort",
+              desc: "Luxury resort stay",
+              icon: <Hotel size={18} />,
+              path: "/hotels/resort"
+          },
+          {
+              name: "Apartments",
+              desc: "Private apartment rental",
+              icon: <Hotel size={18} />,
+              path: "/hotels/apartments"
+          }
       ]
-    },
+  },
     {
       title: "Visa",
       items: [

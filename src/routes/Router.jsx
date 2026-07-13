@@ -31,6 +31,13 @@ import DomesticFlightPage from "../pages/Flights/DomesticFlights/DomesticFlightP
 import InternationalFlightPage from "../pages/Flights/InternationalFlightPage";
 import FlightBookingPage from "../pages/Flights/FlightBookingPage";
 // ===========================
+// HOTEL PAGES
+// ===========================
+
+import HotelsPage from "../pages/Hotels/HotelsPage";
+import ResortsPage from "../pages/Hotels/Resorts/ResortsPage";
+import Apartments from "../pages/Hotels/Apartments/Apartments";
+// ===========================
 // DASHBOARD PAGES
 // ===========================
 
@@ -126,6 +133,22 @@ const router = createBrowserRouter([
             {
                 path: "flights/booking",
                 element: <FlightBookingPage />,
+            },
+            // ==========================================
+            // HOTELS
+            // ==========================================
+
+            {
+                path: "hotels",
+                element: <HotelsPage />,
+            },
+            {
+                path: "hotels/resort",
+                element: <ResortsPage />,
+            },
+            {
+                path: "hotels/apartments",
+                element: <Apartments />,
             },
             // CONTACT
             {

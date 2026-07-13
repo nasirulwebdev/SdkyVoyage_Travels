@@ -1,26 +1,19 @@
 import { ChevronRight, ShieldCheck } from "lucide-react";
 import { Link } from "react-router-dom";
-import domesticHero from "../../../../assets/images/flights/Domestic-Flight-Hero.png";
-
-
-
+import domesticHero from "../../../../assets/images/flights/domesticHero.png";
 
 const DomesticFlightHero = () => {
     return (
-            <section
-                className="
-                    relative
-                    min-h-[190px]
-                    overflow-hidden
-                    bg-cover
-                    bg-center
-                "
-                style={{
-                    backgroundImage: "url('/images/flights/Domestic-Flight-Hero.png')",
-                }}
-            >
+        <section className="relative min-h-[400px] overflow-hidden">
+
+            {/* Background Image */}
+            <img
+                src={domesticHero}
+                alt=""
+                className="absolute inset-0 h-full w-full object-cover"
+            />
             {/* Dark overlay */}
-            <div className="absolute inset-0 bg-[#071a38]/75" />
+            <div className="absolute inset-0" />
 
             {/* Content */}
             <div
