@@ -36,6 +36,9 @@ import FlightBookingPage from "../pages/Flights/FlightBookingPage";
 // ===========================
 
 import VisaPage from "../pages/Visa/VisaPage";
+import TouristVisa from "../pages/Visa/TouristVisa";
+import StudentVisa from "../pages/Visa/StudentVisa/StudentVisa";
+import WorkVisa from "../pages/Visa/WorkVisa/WorkVisa";
 // ===========================
 // HOTEL PAGES
 // ===========================
@@ -147,6 +150,18 @@ const router = createBrowserRouter([
             {
                 path: "visa",
                 element: <VisaPage />,
+            },
+            {
+                path: "/visa/tourist",
+                element: <TouristVisa />,
+            },
+            {
+                path: "/visa/student",
+                element: <StudentVisa/>
+            },
+            {
+                path: "visa/work",
+                element: <WorkVisa />,
             },
             // ==========================================
             // HOTELS
