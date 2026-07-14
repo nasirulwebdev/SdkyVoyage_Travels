@@ -136,9 +136,14 @@ const HajjUmrahHero = () => {
                                 <div
                                     key={benefit.id}
                                     className="
+                                        group
                                         flex
+                                        cursor-pointer
                                         items-center
                                         gap-3
+                                        transition-all
+                                        duration-300
+                                        hover:-translate-y-1
                                     "
                                 >
                                     {/* Icon */}
@@ -154,16 +159,27 @@ const HajjUmrahHero = () => {
                                             bg-orange-500
                                             text-white
                                             shadow-md
+                                            transition-all
+                                            duration-300
+                                            group-hover:scale-110
+                                            group-hover:bg-white
+                                            group-hover:text-[#0b4f46]
+                                            group-hover:shadow-xl
                                         "
                                     >
                                         {Icon && (
                                             <Icon
                                                 size={20}
                                                 strokeWidth={2}
+                                                className="
+                                                    transition-transform
+                                                    duration-300
+                                                    group-hover:scale-110
+                                                    group-hover:rotate-6
+                                                "
                                             />
                                         )}
                                     </div>
-
 
                                     {/* Text */}
                                     <div>
@@ -173,6 +189,9 @@ const HajjUmrahHero = () => {
                                                 font-semibold
                                                 leading-[17px]
                                                 text-white
+                                                transition-colors
+                                                duration-300
+                                                group-hover:text-orange-400
                                             "
                                         >
                                             {benefit.title}
@@ -184,6 +203,9 @@ const HajjUmrahHero = () => {
                                                 font-semibold
                                                 leading-[17px]
                                                 text-white
+                                                transition-colors
+                                                duration-300
+                                                group-hover:text-orange-400
                                             "
                                         >
                                             {benefit.subtitle}

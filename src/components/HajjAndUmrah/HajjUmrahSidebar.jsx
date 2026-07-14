@@ -277,21 +277,24 @@ const HajjUmrahSidebar = () => {
                 <Link
                     to={guide.link}
                     className="
-                        mt-5
-                        flex
-                        w-full
-                        items-center
-                        justify-center
-                        rounded-xl
-                        bg-white
-                        px-4
-                        py-8
-                        text-sm
-                        font-bold
-                        text-[#1109e8]
-                        transition
-                        hover:bg-gray-100
-                    "
+                            mt-5
+                            flex
+                            w-32
+                            h-8
+                            items-center
+                            justify-center
+                            rounded-xl
+                            bg-[#0b4f46]
+                            px-5
+                            py-3
+                            text-sm
+                            font-bold
+                            text-white
+                            transition
+                            duration-300
+                            hover:bg-[#083d37]
+                            hover:shadow-lg
+                        "
                 >
                     {guide.buttonText}
                 </Link>

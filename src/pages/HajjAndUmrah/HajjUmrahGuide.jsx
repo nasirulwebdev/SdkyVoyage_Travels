@@ -11,7 +11,7 @@ import {
     Plane,
     ShieldCheck,
 } from "lucide-react";
-
+import hajjUmrahGuideImage from "../../assets/images/Hajj&Umrah/umrah-standard.jpg";
 
 const guideSections = [
     {
@@ -74,70 +74,87 @@ const HajjUmrahGuide = () => {
         <main className="min-h-screen bg-[#f7f8f8]">
 
             {/* HERO */}
-            <section
-                className="
-                    relative
-                    overflow-hidden
-                    bg-[#073f38]
-                    px-4
-                    py-20
-                    sm:px-6
-                    lg:px-8
-                "
-            >
-                <div
+            <section className="relative h-[480px] overflow-hidden">
+
+                {/* Background Image */}
+                <img
+                    src={hajjUmrahGuideImage}
+                    alt="Preparing for Hajj or Umrah"
                     className="
                         absolute
-                        -right-20
-                        -top-20
-                        h-72
-                        w-72
-                        rounded-full
-                        bg-white/5
+                        inset-0
+                        h-full
+                        w-full
+                        object-cover
                     "
                 />
 
+                {/* Dark Overlay */}
+                <div className="absolute inset-0 bg-black/10" />
+
+                {/* Green Gradient Overlay */}
+                <div
+                    className="
+                        absolute
+                        inset-0
+                        bg-gradient-to-r
+                        from-[#073f38]/90
+                        via-[#073f38]/55
+                        to-transparent
+                    "
+                />
+
+                {/* Content */}
                 <div
                     className="
                         relative
+                        z-10
                         mx-auto
+                        flex
+                        h-full
                         max-w-[1240px]
+                        items-center
+                        px-4
+                        sm:px-6
+                        lg:px-8
                     "
                 >
-                    <Link
-                        to="/hajj-umrah"
-                        className="
-                            inline-flex
-                            items-center
-                            gap-2
-                            text-sm
-                            font-semibold
-                            text-white/80
-                            transition
-                            hover:text-white
-                        "
-                    >
-                        <ArrowLeft size={18} />
-                        Back to Packages
-                    </Link>
+                    <div className="max-w-3xl">
 
-                    <div className="mt-10 max-w-3xl">
-
-                        <div
+                        <Link
+                            to="/hajj-umrah"
                             className="
                                 inline-flex
                                 items-center
                                 gap-2
+                                text-sm
+                                font-semibold
+                                text-white/80
+                                transition
+                                hover:text-white
+                            "
+                        >
+                            <ArrowLeft size={36} />
+                            Back to Packages
+                        </Link>
+
+                        <div
+                            className="
+                                mt-10
+                                inline-flex
+                                items-center
+                                gap-4
                                 rounded-full
-                                bg-white/10
+                                bg-white/40
                                 px-4
                                 py-2
                                 text-sm
                                 font-semibold
                                 text-white
+                                backdrop-blur-sm
                             "
                         >
-                            <HeartHandshake size={18} />
+                            <HeartHandshake size={26} />
                             Complete Travel Guide
                         </div>
 
@@ -149,6 +166,7 @@ const HajjUmrahGuide = () => {
                                 leading-tight
                                 text-white
                                 sm:text-5xl
+                                lg:text-6xl
                             "
                         >
                             Preparing for Hajj or Umrah?
@@ -160,7 +178,7 @@ const HajjUmrahGuide = () => {
                                 max-w-2xl
                                 text-base
                                 leading-8
-                                text-white/75
+                                text-white/85
                                 sm:text-lg
                             "
                         >
@@ -171,6 +189,7 @@ const HajjUmrahGuide = () => {
 
                     </div>
                 </div>
+
             </section>
 
 
@@ -400,14 +419,15 @@ const HajjUmrahGuide = () => {
                                 rounded-xl
                                 bg-orange-500
                                 px-7
-                                py-3.5
+                                py-4
+                                h-10
                                 font-bold
                                 text-white
                                 transition
                                 hover:bg-orange-600
                             "
                         >
-                            <Plane size={26} />
+                            <Plane size={30} />
                             Explore Packages
                         </Link>
 

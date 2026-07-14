@@ -167,13 +167,13 @@ const Navbar = () => {
               name: "Hajj Package",
               desc: "Complete Hajj services",
               icon: <Heart size={18} />,
-              path: "/hajj",
+              path: "/hajj-umrah/hajj-packages",
           },
           {
               name: "Umrah Package",
               desc: "Peaceful Umrah journey",
               icon: <Heart size={18} />,
-              path: "/umrah",
+              path: "/hajj-umrah/umrah-package",
           },
       ],
   }
