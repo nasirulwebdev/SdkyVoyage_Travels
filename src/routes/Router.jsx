@@ -39,6 +39,15 @@ import VisaPage from "../pages/Visa/VisaPage";
 import TouristVisa from "../pages/Visa/TouristVisa";
 import StudentVisa from "../pages/Visa/StudentVisa/StudentVisa";
 import WorkVisa from "../pages/Visa/WorkVisa/WorkVisa";
+
+// ===========================
+// HAJJ & UMRAH
+// ===========================
+
+import HajjAndUmrah from "../pages/HajjAndUmrah/HajjAndUmrah";
+import HajjUmrahPackageDetails from "../pages/HajjAndUmrah/HajjUmrahPackageDetails";
+import HajjUmrahGuide from "../pages/HajjAndUmrah/HajjUmrahGuide";
+
 // ===========================
 // HOTEL PAGES
 // ===========================
@@ -163,6 +172,24 @@ const router = createBrowserRouter([
                 path: "visa/work",
                 element: <WorkVisa />,
             },
+
+            // ==========================================
+            // HAJJ & UMRAH
+            // ==========================================
+
+            {
+                path: "hajj-umrah",
+                element: <HajjAndUmrah />,
+            },
+            {
+                path: "hajj-umrah/:slug",
+                element: <HajjUmrahPackageDetails />,
+            },
+            {
+                path: "hajj-umrah-guide",
+                element: <HajjUmrahGuide />,
+            },
+
             // ==========================================
             // HOTELS
             // ==========================================

@@ -158,13 +158,25 @@ const Navbar = () => {
       ],
   },
 
-    {
+  {
       title: "Hajj & Umrah",
+      path: "/hajj-umrah",
+
       items: [
-        { name: "Hajj Package", desc: "Complete Hajj services", icon: <Heart size={18}/>, path: "/hajj" },
-        { name: "Umrah Package", desc: "Peaceful Umrah journey", icon: <Heart size={18}/>, path: "/umrah" }
-      ]
-    }
+          {
+              name: "Hajj Package",
+              desc: "Complete Hajj services",
+              icon: <Heart size={18} />,
+              path: "/hajj",
+          },
+          {
+              name: "Umrah Package",
+              desc: "Peaceful Umrah journey",
+              icon: <Heart size={18} />,
+              path: "/umrah",
+          },
+      ],
+  }
   ];
 
   const normalLinks = [
@@ -344,7 +356,19 @@ const Navbar = () => {
 
           {dropdowns.map((menu, index) => (
             <div key={index} className="space-y-1">
-              <p className="font-semibold text-gray-900 text-sm pt-1">{menu.title}</p>
+             {menu.path ? (
+                  <NavLink
+                      to={menu.path}
+                      onClick={() => setOpen(false)}
+                      className="block font-semibold text-gray-900 text-sm pt-1 hover:text-blue-700 transition"
+                  >
+                      {menu.title}
+                  </NavLink>
+              ) : (
+                  <p className="font-semibold text-gray-900 text-sm pt-1">
+                      {menu.title}
+                  </p>
+              )}
               <div className="ml-3 border-l-2 border-gray-100 pl-3 mt-1 space-y-2">
                 {menu.items.map((item, i) => (
                   <NavLink key={i} to={item.path} onClick={() => setOpen(false)} className="block text-sm text-gray-600 hover:text-blue-600 py-0.5">
