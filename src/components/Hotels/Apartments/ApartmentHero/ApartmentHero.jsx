@@ -5,7 +5,7 @@ import {
     RotateCcw,
 } from "lucide-react";
 
-import apartmentHero from "../../../../assets/images/hotels/apartments/apartmentHero.png";
+import apartmentHero from "../../../../assets/images/hotels/Apartments/ApartmentHero.jpg";
 
 const ApartmentHero = () => {
     return (
