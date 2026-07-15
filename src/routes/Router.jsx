@@ -50,6 +50,15 @@ import HajjUmrahGuide from "../pages/HajjAndUmrah/HajjUmrahGuide";
 import HajjPackage from "../pages/HajjAndUmrah/HajjPackage/HajjPackage";
 import HajjPackageDetails from "../pages/HajjAndUmrah/HajjPackage/HajjPackageDetails";
 import UmrahPackage from "../pages/HajjAndUmrah/UmrahPackage/UmrahPackage";
+import UmrahPackageDetails from "../pages/HajjAndUmrah/UmrahPackage/UmrahPackageDetails";
+
+// ===========================
+// BLOG PAGES
+// ===========================
+
+import BlogPage from "../pages/Blog/BlogPage";
+
+
 // ===========================
 // HOTEL PAGES
 // ===========================
@@ -203,6 +212,10 @@ const router = createBrowserRouter([
                 path:"/hajj-umrah/umrah-package",
                 element:<UmrahPackage/>
             },
+            {
+                path: "/hajj-umrah/umrah-package/:id",
+                element: <UmrahPackageDetails />,
+            },
 
             // ==========================================
             // HOTELS
@@ -219,6 +232,15 @@ const router = createBrowserRouter([
             {
                 path: "hotels/apartments",
                 element: <Apartments />,
+            },
+
+            // ==========================================
+            // BLOG
+            // ==========================================
+
+            {
+                path: "blog",
+                element: <BlogPage />,
             },
             // CONTACT
             {
