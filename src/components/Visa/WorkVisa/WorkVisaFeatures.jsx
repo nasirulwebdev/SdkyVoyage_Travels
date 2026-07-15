@@ -5,7 +5,7 @@ import {
     ShieldCheck,
 } from "lucide-react";
 
-import { workVisaFeaturesData } from "../../../data/Visa/WorkVisaData";
+import { workVisaFeaturesData } from "../../../data/Visa/WorkVisaData.js";
 
 
 const iconMap = {

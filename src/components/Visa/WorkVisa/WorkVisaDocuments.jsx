@@ -3,7 +3,7 @@ import {
     FileCheck2,
 } from "lucide-react";
 
-import { workVisaInformationData } from "../../../data/Visa/WorkVisaData";
+import { workVisaInformationData } from "../../../data/Visa/WorkVisaData.js";
 
 
 const WorkVisaDocuments = () => {

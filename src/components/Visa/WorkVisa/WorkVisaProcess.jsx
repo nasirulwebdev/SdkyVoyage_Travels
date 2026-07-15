@@ -6,7 +6,8 @@ import {
     ArrowRight,
 } from "lucide-react";
 
-import { workVisaProcessData } from "../../../data/Visa/WorkVisaData";
+import { workVisaProcessData } from "../../../data/Visa/WorkVisaData.js";
+
 
 
 const iconMap = {

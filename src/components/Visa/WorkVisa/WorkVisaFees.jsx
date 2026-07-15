@@ -3,7 +3,7 @@ import {
     LockKeyhole,
 } from "lucide-react";
 
-import { workVisaInformationData } from "../../../data/Visa/WorkVisaData";
+import { workVisaInformationData } from "../../../data/Visa/WorkVisaData.js";
 
 
 const WorkVisaFees = () => {

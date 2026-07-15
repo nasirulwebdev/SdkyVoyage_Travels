@@ -14,7 +14,7 @@ import {
     workVisaData,
     workVisaUiConfig,
     workVisaSortOptions,
-} from "../../../data/Visa/WorkVisaData";
+} from "../../../data/Visa/WorkVisaData.js";
 
 import WorkVisaFilter from "./WorkVisaFilter";
 import WorkVisaCard from "./WorkVisaCard";

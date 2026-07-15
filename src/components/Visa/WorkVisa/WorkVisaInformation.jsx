@@ -10,7 +10,7 @@ import {
 
 import {
     workVisaInformationData,
-} from "../../../data/Visa/WorkVisaData";
+} from "../../../data/Visa/WorkVisaData.js";
 
 
 const iconMap = {

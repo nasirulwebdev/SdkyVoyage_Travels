@@ -1,4 +1,4 @@
-import { workVisaFilterData } from "../../../data/Visa/WorkVisaData";
+import { workVisaFilterData } from "../../../data/Visa/WorkVisaData.js";
 
 const WorkVisaFilter = ({
     activeFilter,
