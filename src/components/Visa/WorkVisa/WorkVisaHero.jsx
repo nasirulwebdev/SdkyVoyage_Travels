@@ -9,7 +9,7 @@ import {
 
 import { Link } from "react-router-dom";
 
-import { workVisaHeroData } from "../../../data/Visa/WorkVisaData.js";
+import { workVisaHeroData } from "../../../data/visa/WorkVisaData.js";
 
 
 const highlightIcons = {
