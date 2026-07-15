@@ -9,7 +9,7 @@ import {
 
 import {
     hotelDestinations,
-} from "../../../data/hotels/hotelsData";
+} from "../../../data/hotels/hotelsData.js";
 
 import hotelPromoImage from "../../../assets/images/hotels/hotelPromo.jpg";
 

@@ -1,6 +1,6 @@
 import { ArrowRight } from "lucide-react";
 
-import { studentVisaData } from "../../../data/visa/studentvisadata";
+import { studentVisaData } from "../../../data/Visa/StudentVisaData.js";
 
 const PopularStudyDestinations = ({
     selectedCountry,

@@ -7,7 +7,7 @@ import {
     propertyTypes,
     amenities,
     neighborhoods,
-} from "../../../../data/hotels/apartmentsData";
+} from "../../../../data/hotels/apartmentsData.js";
 
 const ApartmentFilter = ({
     filters,

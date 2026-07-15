@@ -11,7 +11,7 @@ import ApartmentPagination from "../ApartmentPagination/ApartmentPagination";
 
 import {
     apartments,
-} from "../../../../data/hotels/apartmentsData";
+} from "../../../../data/hotels/apartmentsData.js";
 
 const ApartmentContent = ({
     searchData = {

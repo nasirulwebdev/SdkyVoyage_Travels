@@ -5,7 +5,7 @@ import {
 
 import {
     studentVisaDocuments,
-} from "../../../data/visa/studentvisadata";
+} from "../../../data/Visa/StudentVisaData.js";
 
 const StudentVisaDocuments = () => {
     return (

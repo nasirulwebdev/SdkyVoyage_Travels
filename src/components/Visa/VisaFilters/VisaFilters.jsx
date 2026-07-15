@@ -7,7 +7,7 @@ import {
 import {
     visaTypes,
     processingTimes,
-} from "../../../data/visa/visaData";
+} from "../../../data/Visa/VisaData.js";
 
 const VisaFilters = ({
     countries = [],

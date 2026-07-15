@@ -8,7 +8,7 @@ import {
 
 import {
     studentVisaData,
-} from "../../../data/visa/studentvisadata";
+} from "../../../data/Visa/StudentVisaData.js";
 
 
 const TopStudentVisaCountries = ({

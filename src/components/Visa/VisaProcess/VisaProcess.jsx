@@ -6,7 +6,7 @@ import {
     ArrowRight,
 } from "lucide-react";
 
-import { visaProcessSteps } from "../../../data/visa/visaData";
+import { visaProcessSteps } from "../../../data/Visa/VisaData.js";
 
 const stepIcons = {
     1: Search,

@@ -6,7 +6,7 @@ import {
     ShieldCheck,
 } from "lucide-react";
 
-import { studentVisaHeroData } from "../../../data/Visa/StudentVisaData";
+import { studentVisaHeroData } from "../../../data/Visa/StudentVisaData.js";
 
 const StudentVisaHero = () => {
     const {

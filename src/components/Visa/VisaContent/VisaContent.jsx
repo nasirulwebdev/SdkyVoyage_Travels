@@ -12,7 +12,7 @@ import VisaPagination from "../VisaPagination/VisaPagination";
 
 import {
     processingTimes,
-} from "../../../data/visa/visaData";
+} from "../../../data/Visa/VisaData.js";
 
 const initialFilters = {
     destination: "All Destinations",

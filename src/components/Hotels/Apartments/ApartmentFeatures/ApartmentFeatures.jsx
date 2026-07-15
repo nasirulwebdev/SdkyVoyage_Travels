@@ -8,7 +8,7 @@ import {
 
 import {
     apartmentFeatures,
-} from "../../../../data/hotels/apartmentsData";
+} from "../../../../data/hotels/apartmentsData.js";
 
 const ApartmentFeatures = () => {
     const iconMap = {

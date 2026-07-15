@@ -10,7 +10,7 @@ import {
 import {
     whyBookWithUs,
     topApartmentDestinations,
-} from "../../../../data/hotels/apartmentsData";
+} from "../../../../data/hotels/apartmentsData.js";
 
 const ApartmentSidebar = () => {
     const iconMap = {

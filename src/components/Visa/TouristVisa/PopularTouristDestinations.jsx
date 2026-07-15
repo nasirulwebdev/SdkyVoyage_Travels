@@ -1,6 +1,6 @@
 import { ArrowRight } from "lucide-react";
 
-import { touristVisaData } from "../../../data/Visa/touristVisaData";
+import { touristVisaData } from "../../../data/Visa/touristVisaData.js";
 
 
 const PopularTouristDestinations = () => {

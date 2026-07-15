@@ -8,7 +8,7 @@ import {
     starRatingFilters,
     guestRatingFilters,
     facilitiesFilters,
-} from "../../../data/hotels/hotelsData";
+} from "../../../data/hotels/hotelsData.js";
 
 const HotelFilters = ({
     filters,
