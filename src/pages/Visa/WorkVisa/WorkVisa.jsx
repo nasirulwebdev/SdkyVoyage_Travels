@@ -3,7 +3,7 @@ import WorkVisaProcess from "../../../components/Visa/WorkVisa/WorkVisaProcess";
 import WorkVisaContent from "../../../components/Visa/WorkVisa/WorkVisaContent";
 import WorkVisaCountries from "../../../components/Visa/WorkVisa/WorkVisaCountries";
 import WorkVisaFeatures from "../../../components/Visa/WorkVisa/WorkVisaFeatures";
-import { workVisaData } from "../../../data/Visa/WorkVisaData.js";
+import { WorkVisaData } from "../../../data/visa/WorkVisaData.js";
 const WorkVisa = () => {
     return (
         <main className="min-h-screen bg-[#f8faff]">
