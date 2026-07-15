@@ -1,7 +1,7 @@
-import dubaiApartment from "../../assets/images/hotels/apartments/dubaiApartment.jpg";
-import bangkokApartment from "../../assets/images/hotels/apartments/bangkokApartment.jpg";
-import newYorkApartment from "../../assets/images/hotels/apartments/newYorkApartment.jpg";
-import parisApartment from "../../assets/images/hotels/apartments/parisApartment.jpg";
+import dubaiApartment from "../../assets/images/hotels/Apartments/dubaiApartment.jpg";
+import bangkokApartment from "../../assets/images/hotels/Apartments/bangkokApartment.jpg";
+import newYorkApartment from "../../assets/images/hotels/Apartments/newYorkApartment.jpg";
+import parisApartment from "../../assets/images/hotels/Apartments/parisApartment.jpg";
 
 /* =========================
    APARTMENT LISTINGS
