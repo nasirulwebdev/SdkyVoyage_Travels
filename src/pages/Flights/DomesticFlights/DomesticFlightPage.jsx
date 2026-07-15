@@ -14,7 +14,7 @@ import DomesticPagination from "../../../components/Flights/DomesticFlights/Dome
 
 import DomesticTrustFeatures from "../../../components/Flights/DomesticFlights/DomesticTrustFeatures/DomesticTrustFeatures.jsx";
 
-import { domesticFlightsData } from "../../../data/flights/Domesticflights/DomesticFlight.js";
+import { domesticFlightsData } from "../../../data/flights/DomesticFlights/DomesticFlight.js";
 
 
 const FLIGHTS_PER_PAGE = 8;
