@@ -13,7 +13,7 @@ import FlightRightSidebar from "../../components/Flights/FlightSidebar/FlightRig
 import FlightPagination from "../../components/Flights/FlightPagination/FlightPagination";
 import FlightTrustBar from "../../components/Flights/FlightTrustBar/FlightTrustBar";
 
-import { flightsData } from "../../data/flights/flightsData";
+import { flightsData } from "../../data/flights/flightsData.js";
 
 const initialFilters = {
     stops: [],

@@ -8,7 +8,7 @@ import TourToolbar from "../../components/tourPackages/TourToolbar";
 import TourPackageGrid from "../../components/tourPackages/TourPackageGrid";
 import TourPagination from "../../components/tourPackages/TourPagination";
 
-import { tourPackages } from "../../data/tourPackagesData";
+import { tourPackages } from "../../data/tourPackagesData.js";
 
 const ITEMS_PER_PAGE = 6;
 

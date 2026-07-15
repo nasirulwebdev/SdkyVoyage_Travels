@@ -7,7 +7,7 @@ import HotelListing from "../../components/Hotels/HotelListing/HotelListing";
 import HotelSidebar from "../../components/Hotels/HotelSidebar/HotelSidebar";
 import HotelPagination from "../../components/Hotels/HotelPagination/HotelPagination";
 
-import { hotelsData } from "../../data/hotels/hotelsData";
+import { hotelsData } from "../../data/hotels/hotelsData.js";
 
 const HotelsPage = () => {
     // ==========================================

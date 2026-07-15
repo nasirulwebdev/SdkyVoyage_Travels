@@ -19,7 +19,7 @@ import {
     hajjPackageFilterData,
     hajjPackagePaginationData,
     hajjPackages,
-} from "../../../data/HajjAndUmrah/HajjPackageData";
+} from "../../../data/HajjAndUmrah/HajjPackageData.js";
 
 
 

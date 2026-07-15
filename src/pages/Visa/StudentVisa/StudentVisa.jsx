@@ -8,7 +8,7 @@ import StudentVisaInformation from "../../../components/Visa/StudentVisa/Student
 import StudentVisaDocuments from "../../../components/Visa/StudentVisa/StudentVisaDocuments";
 import StudentVisaFees from "../../../components/Visa/StudentVisa/StudentVisaFees";
 import TopStudentVisaCountries from "../../../components/Visa/StudentVisa/TopStudentVisaCountries";
-import { studentVisaData, } from "../../../data/visa/StudentVisaData";
+import { studentVisaData, } from "../../../data/visa/StudentVisaData.js";
 import StudentVisaFeatures from "../../../components/Visa/StudentVisa/StudentVisaFeatures";
 
 const StudentVisa = () => {

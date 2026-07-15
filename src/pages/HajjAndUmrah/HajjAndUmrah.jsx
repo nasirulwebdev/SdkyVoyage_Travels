@@ -15,7 +15,7 @@ import {
     initialHajjUmrahFilters,
     initialHajjUmrahSearch,
     hajjUmrahPageConfig,
-} from "../../data/HajjAndUmrah/HajjAndUmrahData";
+} from "../../data/HajjAndUmrah/HajjAndUmrahData.js";
 
 
 const HajjAndUmrah = () => {

@@ -4,7 +4,7 @@ import VisaContent from "../../components/Visa/VisaContent/VisaContent";
 
 import {
     visaServices,
-} from "../../data/visa/visaData";
+} from "../../data/visa/visaData.js";
 
 const VisaPage = () => {
     return (

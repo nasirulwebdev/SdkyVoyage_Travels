@@ -11,7 +11,7 @@ import {
 
 import {
     hajjUmrahPackages,
-} from "../../data/HajjAndUmrah/HajjAndUmrahData";
+} from "../../data/HajjAndUmrah/HajjAndUmrahData.js";
 
 
 const HajjUmrahPackageDetails = () => {
